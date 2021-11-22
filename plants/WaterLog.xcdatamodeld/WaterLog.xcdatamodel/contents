@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Plant" representedClassName="Plant" syncable="YES" codeGenerationType="class">
+    <entity name="Plant" representedClassName="Plant" syncable="YES">
         <attribute name="species" optional="YES" attributeType="String"/>
         <relationship name="waterDates" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="WaterDate" inverseName="plant" inverseEntity="WaterDate"/>
     </entity>
-    <entity name="WaterDate" representedClassName="WaterDate" syncable="YES" codeGenerationType="class">
+    <entity name="WaterDate" representedClassName="WaterDate" syncable="YES">
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <relationship name="plant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Plant" inverseName="waterDates" inverseEntity="Plant"/>
     </entity>

@@ -12,6 +12,10 @@
 		AB02453C226D322400F9A263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB02453A226D322400F9A263 /* Main.storyboard */; };
 		AB02453E226D322600F9A263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB02453D226D322600F9A263 /* Assets.xcassets */; };
 		AB024541226D322600F9A263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB02453F226D322600F9A263 /* LaunchScreen.storyboard */; };
+		F2088B31274C2C51002D4331 /* Plant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2088B2D274C2C51002D4331 /* Plant+CoreDataClass.swift */; };
+		F2088B32274C2C51002D4331 /* Plant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2088B2E274C2C51002D4331 /* Plant+CoreDataProperties.swift */; };
+		F2088B33274C2C51002D4331 /* WaterDate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2088B2F274C2C51002D4331 /* WaterDate+CoreDataClass.swift */; };
+		F2088B34274C2C51002D4331 /* WaterDate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2088B30274C2C51002D4331 /* WaterDate+CoreDataProperties.swift */; };
 		F220A5D62743386C00B848A5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220A5D52743386C00B848A5 /* CoreDataStack.swift */; };
 		F220A5D927433E0900B848A5 /* WaterLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F220A5D727433E0900B848A5 /* WaterLog.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -24,6 +28,10 @@
 		AB02453D226D322600F9A263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB024540226D322600F9A263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB024542226D322600F9A263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2088B2D274C2C51002D4331 /* Plant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2088B2E274C2C51002D4331 /* Plant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2088B2F274C2C51002D4331 /* WaterDate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterDate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2088B30274C2C51002D4331 /* WaterDate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterDate+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F220A5D52743386C00B848A5 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		F220A5D827433E0900B848A5 /* WaterLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaterLog.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 		AB024535226D322400F9A263 /* plants */ = {
 			isa = PBXGroup;
 			children = (
+				F2088B2D274C2C51002D4331 /* Plant+CoreDataClass.swift */,
+				F2088B2E274C2C51002D4331 /* Plant+CoreDataProperties.swift */,
+				F2088B2F274C2C51002D4331 /* WaterDate+CoreDataClass.swift */,
+				F2088B30274C2C51002D4331 /* WaterDate+CoreDataProperties.swift */,
 				AB024536226D322400F9A263 /* AppDelegate.swift */,
 				AB024538226D322400F9A263 /* ViewController.swift */,
 				AB02453A226D322400F9A263 /* Main.storyboard */,
@@ -143,7 +155,11 @@
 			files = (
 				F220A5D62743386C00B848A5 /* CoreDataStack.swift in Sources */,
 				AB024539226D322400F9A263 /* ViewController.swift in Sources */,
+				F2088B33274C2C51002D4331 /* WaterDate+CoreDataClass.swift in Sources */,
 				F220A5D927433E0900B848A5 /* WaterLog.xcdatamodeld in Sources */,
+				F2088B32274C2C51002D4331 /* Plant+CoreDataProperties.swift in Sources */,
+				F2088B34274C2C51002D4331 /* WaterDate+CoreDataProperties.swift in Sources */,
+				F2088B31274C2C51002D4331 /* Plant+CoreDataClass.swift in Sources */,
 				AB024537226D322400F9A263 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
